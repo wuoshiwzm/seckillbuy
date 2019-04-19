@@ -1,4 +1,8 @@
 <?php
+/**
+ * 增删查改
+ */
+
 
 namespace Mysql;
 class Curd{
