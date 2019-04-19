@@ -1,4 +1,7 @@
 <?php
+
+
+//因为考虑性能， 像事物处理，批处理的功能 ， 没有用。
 namespace Mysql;
 class DB
 {
@@ -169,7 +172,26 @@ class DB
     }
 
 
+    public function single($query, $params = null)
+    {
+        $mtime1 = microtime();
+        $this->Init($query,$params);
+        $ret = $this->sQuery->fetchColumn();
+        $mtime2 = microtime();
+        //  log...
+        return $ret;
+    }
 
+
+    private function ExceptionLog($message,$sql = ""){
+        $exception = 'Unhandled Exception .<br />';
+        $exception .= $message;
+
+        if(!empty($sql)){
+            return $exception;
+        }
+
+    }
 
 
 
