@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a52361cf-63c5-410c-b6dc-93f46bbee522" name="Default" comment="" />
+    <list default="true" id="a52361cf-63c5-410c-b6dc-93f46bbee522" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mysql/DB.php" afterPath="$PROJECT_DIR$/Mysql/DB.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +20,9 @@
       <file leaf-file-name="DB.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Mysql/DB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="108" column="3" lean-forward="false" selection-start-line="108" selection-start-column="3" selection-end-line="108" selection-end-column="3" />
-              <folding>
-                <element signature="e#622#1570#0#PHP" expanded="false" />
-              </folding>
+            <state relative-caret-position="529">
+              <caret line="166" column="20" lean-forward="false" selection-start-line="166" selection-start-column="20" selection-end-line="166" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,8 +72,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="167" />
-    <option name="y" value="164" />
+    <option name="x" value="166" />
+    <option name="y" value="170" />
     <option name="width" value="1379" />
     <option name="height" value="881" />
   </component>
@@ -199,15 +199,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555652254525</updated>
-      <workItem from="1555652258239" duration="2431000" />
+      <workItem from="1555652258239" duration="3480000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2431000" />
+    <option name="totallyTimeSpent" value="3480000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="167" y="164" width="1379" height="881" extended-state="1" />
+    <frame x="166" y="170" width="1379" height="881" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42608038" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -279,11 +279,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Mysql/DB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="108" column="3" lean-forward="false" selection-start-line="108" selection-start-column="3" selection-end-line="108" selection-end-column="3" />
-          <folding>
-            <element signature="e#622#1570#0#PHP" expanded="false" />
-          </folding>
+        <state relative-caret-position="529">
+          <caret line="166" column="20" lean-forward="false" selection-start-line="166" selection-start-column="20" selection-end-line="166" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

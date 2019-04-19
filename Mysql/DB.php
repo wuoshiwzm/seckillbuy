@@ -109,6 +109,65 @@ class DB
     }
 
 
+    public function query($query,$params = null, $fetchmode = \PDO::FETCH_ASSOC)
+    {
+        $mtime1 = microtime();
+        $query = trim($query);
+
+        $this->Init($query,$params);
+
+        $rawStatement = explode(" ",$query);
+
+        $statement = strtolower($rawStatement[0]);
+
+        $ret = NULL;
+        //这个项目只支持对数据的操作，不支持对表结构的操作，如create, alter .. 等等
+        if($statement === 'select' || $statement === 'show'){
+            $ret = $this->sQuery->fetchAll($fetchmode);
+        }elseif($statement === 'insert' || $statement === 'update' || $statement === 'delete'){
+            $ret = $this->sQuery->rowCount();
+        }
+        $mtime2 = microtime();
+
+        \common\DebugLog::_mysql('query: '.$query,$params,array('host'=>$this->settings['host'],'dbname'=>$this->settings['dbname']),$mtime1,$mtime2,null);
+        
+    }
+
+    public function lastInsertId()
+    {
+        return $this->pdo->lastInsertId();
+    }
+
+    //拿到第一列
+    
+    public function column($query, $params = null)
+    {
+        $mtime1 = microtime();
+        $this->Init($query,$params);
+        $Columns = $this->sQuery->fetchAll(\PDO::FETCH_NUM);
+
+        $column = null;
+
+        foreach ($Columns as $cells) {
+            $column[] = $cells[0];
+        }
+        $mtime2 = microtime();
+        //\common\DebugLog::...
+    }
+
+    //拿到第一行
+    public function row($query, $params = null, $fetchmode = \PDO::FETCH_ASSOC)
+    {
+        $mtime1 = microtime();
+        $this->Init($query, $params);
+        $ret = $this->sQuery->fetch($fetchmode);
+        $mtime2 = microtime();
+
+        //\common\DebugLog::...
+        return $ret;
+
+    }
+
 
 
 
