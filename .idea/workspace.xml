@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a52361cf-63c5-410c-b6dc-93f46bbee522" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/common/Datasource.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf/redis.ini.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mysql/Curd.php" afterPath="$PROJECT_DIR$/class/Mysql/Curd.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mysql/DB.php" afterPath="$PROJECT_DIR$/class/Mysql/DB.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/common/DebugLog.php" afterPath="$PROJECT_DIR$/class/common/DebugLog.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/db.ini.php" afterPath="$PROJECT_DIR$/conf/db.ini.php" />
-    </list>
+    <list default="true" id="a52361cf-63c5-410c-b6dc-93f46bbee522" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +18,8 @@
       <file leaf-file-name="Datasource.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class/common/Datasource.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="967">
-              <caret line="164" column="0" lean-forward="true" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+            <state relative-caret-position="208">
+              <caret line="131" column="7" lean-forward="true" selection-start-line="131" selection-start-column="7" selection-end-line="131" selection-end-column="7" />
               <folding>
                 <element signature="e#7#57#0#PHP" expanded="true" />
                 <element signature="n#__construct#0;n#RedisHelper#0;n#!!top" expanded="false" />
@@ -234,15 +226,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555652254525</updated>
-      <workItem from="1555652258239" duration="10441000" />
+      <workItem from="1555652258239" duration="10475000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10441000" />
+    <option name="totallyTimeSpent" value="10475000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="234" y="181" width="1229" height="767" extended-state="0" />
+    <frame x="234" y="181" width="1229" height="767" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.108639866" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -358,8 +350,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class/common/Datasource.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="967">
-          <caret line="164" column="0" lean-forward="true" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+        <state relative-caret-position="208">
+          <caret line="131" column="7" lean-forward="true" selection-start-line="131" selection-start-column="7" selection-end-line="131" selection-end-column="7" />
           <folding>
             <element signature="e#7#57#0#PHP" expanded="true" />
             <element signature="n#__construct#0;n#RedisHelper#0;n#!!top" expanded="false" />
