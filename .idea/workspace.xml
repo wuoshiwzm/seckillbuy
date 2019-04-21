@@ -1,9 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a52361cf-63c5-410c-b6dc-93f46bbee522" name="Default" comment="" />
+    <list default="true" id="a52361cf-63c5-410c-b6dc-93f46bbee522" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/class/Curl/Curl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/Curl/MultiCurl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/Mysql/Crud.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/model/Active.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/model/Goods.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/model/Log.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/model/Question.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/model/Trade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/_local.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/function.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/global.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/active_edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/active_list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/common/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/common/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/common/navigation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/goods_edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/goods_list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/log_list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/question_edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/question_list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/trade_list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/common/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/common/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/common/navigation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/trade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/seckillbuy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/seckillbuy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/Mysql/Curd.php" beforeDir="false" afterPath="$PROJECT_DIR$/class/Mysql/Curd.php1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/Mysql/DB.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/common/Datasource.php" beforeDir="false" afterPath="$PROJECT_DIR$/class/common/Datasource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/common/DebugLog.php" beforeDir="false" afterPath="$PROJECT_DIR$/class/common/DebugLog.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,19 +48,13 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Datasource.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/class/common/Datasource.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/class/model/Goods.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="131" column="7" lean-forward="true" selection-start-line="131" selection-start-column="7" selection-end-line="131" selection-end-column="7" />
-              <folding>
-                <element signature="e#7#57#0#PHP" expanded="true" />
-                <element signature="n#__construct#0;n#RedisHelper#0;n#!!top" expanded="false" />
-                <element signature="n#instance#0;n#RedisHelper#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="228">
+              <caret line="56" column="36" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -34,7 +64,20 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>conf</find>
+      <find>QUESTION</find>
+      <find>signQuestion</find>
+      <find>cookie</find>
+      <find>astatus</find>
+      <find>mget</find>
+      <find>202</find>
+      <find>201</find>
+      <find>redis</find>
+      <find>Autoload</find>
+      <find>registerAutoload</find>
     </findStrings>
+    <dirStrings>
+      <dir>D:\projs\seckillbuy</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,174 +93,123 @@
         <option value="$PROJECT_DIR$/Redis.php" />
         <option value="$PROJECT_DIR$/common/Datasource.php" />
         <option value="$PROJECT_DIR$/conf/redis.ini.php" />
+        <option value="$PROJECT_DIR$/conf/_local.inc.php" />
+        <option value="$PROJECT_DIR$/function/global.inc.php" />
+        <option value="$PROJECT_DIR$/class/model/Active.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/web/init.php" />
+        <option value="$PROJECT_DIR$/views/common/header.php" />
+        <option value="$PROJECT_DIR$/views/list.php" />
+        <option value="$PROJECT_DIR$/web/question.php" />
+        <option value="$PROJECT_DIR$/web/astatus.php" />
+        <option value="$PROJECT_DIR$/web/astatus/1_1.js1" />
+        <option value="$PROJECT_DIR$/views/admin/trade_list.php" />
+        <option value="$PROJECT_DIR$/class/model/Goods.php" />
         <option value="$PROJECT_DIR$/class/common/Datasource.php" />
+        <option value="$PROJECT_DIR$/web/buy.php" />
+        <option value="$PROJECT_DIR$/function/function.inc.php" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="234" />
-    <option name="y" value="181" />
-    <option name="width" value="1229" />
-    <option name="height" value="767" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="57" />
+    <option name="y" value="57" />
+    <option name="width" value="1193" />
+    <option name="height" value="673" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckillbuy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckillbuy" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckillbuy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckillbuy" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conf" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckillbuy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckillbuy" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="class" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckillbuy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckillbuy" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="class" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="seckillbuy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seckillbuy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seckillbuy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seckillbuy" type="462c0819:PsiDirectoryNode" />
+              <item name="class" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seckillbuy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seckillbuy" type="462c0819:PsiDirectoryNode" />
+              <item name="class" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seckillbuy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seckillbuy" type="462c0819:PsiDirectoryNode" />
+              <item name="class" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seckillbuy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seckillbuy" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seckillbuy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seckillbuy" type="462c0819:PsiDirectoryNode" />
+              <item name="function" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
-    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\other_proj\seckillbuy\conf" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\other_proj\seckillbuy\class" />
       <recent name="E:\other_proj\seckillbuy\conf" />
       <recent name="E:\other_proj\seckillbuy\Mysql" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projs\seckillbuy\class\model" />
+      <recent name="D:\projs\seckillbuy\function" />
+      <recent name="D:\projs\seckillbuy\conf" />
+      <recent name="D:\projs\seckillbuy\views" />
+      <recent name="D:\projs\seckillbuy\web" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
-      <BehatRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
-      <PhpTestRunnerSettings />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+    <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
+      <gulpfile />
+      <tasks />
+      <arguments />
       <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
+      <method v="2" />
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -227,136 +219,194 @@
       <option name="presentableId" value="Default" />
       <updated>1555652254525</updated>
       <workItem from="1555652258239" duration="10598000" />
+      <workItem from="1555688727748" duration="1499000" />
+      <workItem from="1555720286160" duration="10733000" />
+      <workItem from="1555733888581" duration="9662000" />
+      <workItem from="1555811468128" duration="4108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10598000" />
+    <option name="totallyTimeSpent" value="36600000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="234" y="181" width="1229" height="767" extended-state="1" />
+    <frame x="63" y="163" width="1443" height="673" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.108639866" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17064352" />
+      <window_info id="Structure" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.3283859" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
-    <watches-manager />
+    <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/class/common/DebugLog.php">
+    <entry file="file://$PROJECT_DIR$/Redis.php" />
+    <entry file="file://$PROJECT_DIR$/class/Mysql/Curd.php1" />
+    <entry file="file://$PROJECT_DIR$/class/Mysql/Db.php" />
+    <entry file="file://$PROJECT_DIR$/web/admin/active.php" />
+    <entry file="file://$PROJECT_DIR$/class/Mysql/Crud.php" />
+    <entry file="file://$PROJECT_DIR$/class/model/Active.php" />
+    <entry file="file://$PROJECT_DIR$/index.php" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/mcrypt/mcrypt.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="224">
+          <caret line="198" column="70" lean-forward="true" selection-start-line="198" selection-start-column="70" selection-end-line="198" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/common/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/common/footer.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/list.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/redis.ini.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/astatus/1_1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/astatus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="215" column="21" selection-start-line="215" selection-start-column="21" selection-end-line="215" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/question.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/trade_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/log_list.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
           <folding>
-            <element signature="e#6#94#0#PHP" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/Mysql/DB.php">
+    <entry file="file://$PROJECT_DIR$/web/init.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="23" column="56" lean-forward="true" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-          <folding>
-            <element signature="e#7#57#0#PHP" expanded="true" />
-            <element signature="e#1629#1702#0#PHP" expanded="false" />
-            <element signature="e#1708#2419#0#PHP" expanded="false" />
-            <element signature="e#2425#2703#0#PHP" expanded="false" />
-            <element signature="e#2710#2837#0#PHP" expanded="false" />
-            <element signature="e#2844#3675#0#PHP" expanded="false" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/buy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="186" column="34" selection-start-line="186" selection-start-column="34" selection-end-line="186" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/db.ini.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/_local.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="323">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Redis.php">
+    <entry file="file://$PROJECT_DIR$/function/function.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="228">
+          <caret line="430" column="55" selection-start-line="430" selection-start-column="55" selection-end-line="430" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/Mysql/Curd.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1771">
-          <caret line="55" column="49" lean-forward="true" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
-          <folding>
-            <element signature="e#6#21#0#PHP" expanded="true" />
-            <marker date="1555658302636" expanded="true" signature="2436:2449" ph="INSERT INTO " />
-            <marker date="1555658302636" expanded="true" signature="2436:2468" ph="INSERT INTO `${$this-&gt;table}`... " />
-            <marker date="1555658302636" expanded="true" signature="2436:2487" ph="INSERT INTO `${$this-&gt;table}`... " />
-            <marker date="1555658302636" expanded="true" signature="2436:2495" ph="INSERT INTO `${$this-&gt;table}`... " />
-            <marker date="1555658302636" expanded="true" signature="2436:2496" ph="INSERT INTO " />
-            <marker date="1555658302636" expanded="true" signature="2436:2514" ph="INSERT INTO `${$this-&gt;table}`... " />
-            <marker date="1555658302636" expanded="true" signature="2436:2515" ph="INSERT INTO `${$this-&gt;table}`... " />
-            <marker date="1555658302636" expanded="true" signature="2552:2565" ph="INSERT INTO " />
-            <marker date="1555658302636" expanded="true" signature="2552:2594" ph="INSERT INTO `${$this-&gt;table}`... " />
-            <marker date="1555658302636" expanded="true" signature="2552:2595" ph="INSERT INTO " />
-            <marker date="1555658302636" expanded="true" signature="2962:2975" ph="DELETE FROM " />
-            <marker date="1555658302636" expanded="true" signature="2962:3001" ph="DELETE FROM " />
-            <marker date="1555658302636" expanded="true" signature="2962:3002" ph="DELETE FROM " />
-            <marker date="1555658302636" expanded="true" signature="2962:3019" ph="DELETE FROM " />
-            <marker date="1555658302636" expanded="true" signature="2962:3020" ph="DELETE FROM " />
-            <marker date="1555658302636" expanded="true" signature="2962:3040" ph="DELETE FROM " />
-            <marker date="1555658302636" expanded="true" signature="2962:3041" ph="DELETE FROM " />
-            <marker date="1555658302636" expanded="true" signature="3273:3362" ph="SELECT * FRO... ${$this-&gt;table}" />
-            <marker date="1555658302636" expanded="true" signature="3560:3596" ph="SELECT * FRO... ${$this-&gt;table}" />
-            <marker date="1555658302636" expanded="true" signature="3674:3717" ph="SELECT COUNT... ${$this-&gt;table}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/redis.ini.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/web/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/class/common/Datasource.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="131" column="7" lean-forward="true" selection-start-line="131" selection-start-column="7" selection-end-line="131" selection-end-column="7" />
-          <folding>
-            <element signature="e#7#57#0#PHP" expanded="true" />
-            <element signature="n#__construct#0;n#RedisHelper#0;n#!!top" expanded="false" />
-            <element signature="n#instance#0;n#RedisHelper#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="1862">
+          <caret line="100" column="37" lean-forward="true" selection-start-line="100" selection-start-column="37" selection-end-line="100" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/common/DebugLog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1558">
+          <caret line="385" lean-forward="true" selection-start-line="385" selection-end-line="385" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/common/CoreFunction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4869" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function/global.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/common/SysPager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3059">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/model/Goods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="56" column="36" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="36" />
         </state>
       </provider>
     </entry>
